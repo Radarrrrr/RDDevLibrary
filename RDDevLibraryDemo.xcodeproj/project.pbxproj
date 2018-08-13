@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0C3501C12121759100D029FF /* RDAudioPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C3501BF2121759100D029FF /* RDAudioPlayer.m */; };
 		0C546EEA210C4A7900A09037 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C546EE9210C4A7900A09037 /* AppDelegate.m */; };
 		0C546EED210C4A7900A09037 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C546EEC210C4A7900A09037 /* ViewController.m */; };
 		0C546EF0210C4A7900A09037 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0C546EEE210C4A7900A09037 /* Main.storyboard */; };
@@ -25,6 +26,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0C3501BF2121759100D029FF /* RDAudioPlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RDAudioPlayer.m; sourceTree = "<group>"; };
+		0C3501C02121759100D029FF /* RDAudioPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RDAudioPlayer.h; sourceTree = "<group>"; };
 		0C546EE5210C4A7900A09037 /* RDDevLibraryDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RDDevLibraryDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0C546EE8210C4A7900A09037 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		0C546EE9210C4A7900A09037 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -103,25 +106,27 @@
 		0C546EFE210C4C1300A09037 /* RDDevLibrary */ = {
 			isa = PBXGroup;
 			children = (
-				0C546EFF210C4C1300A09037 /* UIButton+Color.h */,
-				0C546F00210C4C1300A09037 /* UIButton+Spin.m */,
-				0C546F01210C4C1300A09037 /* RDKeyChain.h */,
-				0C546F02210C4C1300A09037 /* RDFunction.m */,
-				0C546F03210C4C1300A09037 /* RDFileManager.m */,
-				0C546F04210C4C1300A09037 /* RDImageManager.m */,
-				0C546F05210C4C1300A09037 /* UIImage+Color.h */,
-				0C546F06210C4C1300A09037 /* UIImage+ImageEffects.h */,
-				0C546F07210C4C1300A09037 /* RDMacros.h */,
-				0C546F08210C4C1300A09037 /* RDFunction.h */,
-				0C546F09210C4C1300A09037 /* RDKeyChain.m */,
-				0C546F0A210C4C1300A09037 /* UIButton+Spin.h */,
-				0C546F0B210C4C1300A09037 /* UIButton+Color.m */,
-				0C546F0C210C4C1300A09037 /* RDImageManager.h */,
-				0C546F0D210C4C1300A09037 /* RDFileManager.h */,
-				0C546F0E210C4C1300A09037 /* UIImage+ImageEffects.m */,
-				0C546F0F210C4C1300A09037 /* UIImage+Color.m */,
 				0C546F10210C4C1300A09037 /* RDDevLibrary.h */,
+				0C546F07210C4C1300A09037 /* RDMacros.h */,
 				0C546F11210C4C1300A09037 /* RDMacros.m */,
+				0C546F08210C4C1300A09037 /* RDFunction.h */,
+				0C546F02210C4C1300A09037 /* RDFunction.m */,
+				0C546F01210C4C1300A09037 /* RDKeyChain.h */,
+				0C546F09210C4C1300A09037 /* RDKeyChain.m */,
+				0C3501C02121759100D029FF /* RDAudioPlayer.h */,
+				0C3501BF2121759100D029FF /* RDAudioPlayer.m */,
+				0C546F05210C4C1300A09037 /* UIImage+Color.h */,
+				0C546F0F210C4C1300A09037 /* UIImage+Color.m */,
+				0C546EFF210C4C1300A09037 /* UIButton+Color.h */,
+				0C546F0B210C4C1300A09037 /* UIButton+Color.m */,
+				0C546F0A210C4C1300A09037 /* UIButton+Spin.h */,
+				0C546F00210C4C1300A09037 /* UIButton+Spin.m */,
+				0C546F0D210C4C1300A09037 /* RDFileManager.h */,
+				0C546F03210C4C1300A09037 /* RDFileManager.m */,
+				0C546F0C210C4C1300A09037 /* RDImageManager.h */,
+				0C546F04210C4C1300A09037 /* RDImageManager.m */,
+				0C546F06210C4C1300A09037 /* UIImage+ImageEffects.h */,
+				0C546F0E210C4C1300A09037 /* UIImage+ImageEffects.m */,
 			);
 			path = RDDevLibrary;
 			sourceTree = "<group>";
@@ -205,6 +210,7 @@
 				0C546F18210C4C1300A09037 /* UIImage+ImageEffects.m in Sources */,
 				0C546F13210C4C1300A09037 /* RDFunction.m in Sources */,
 				0C546F1A210C4C1300A09037 /* RDMacros.m in Sources */,
+				0C3501C12121759100D029FF /* RDAudioPlayer.m in Sources */,
 				0C546F19210C4C1300A09037 /* UIImage+Color.m in Sources */,
 				0C546EEA210C4A7900A09037 /* AppDelegate.m in Sources */,
 				0C546F15210C4C1300A09037 /* RDImageManager.m in Sources */,

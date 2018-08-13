@@ -15,4 +15,5 @@
 #import "UIImage+Color.h"
 #import "RDFileManager.h"
 #import "RDImageManager.h"
+#import "RDAudioPlayer.h"
 
